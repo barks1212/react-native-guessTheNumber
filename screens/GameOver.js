@@ -9,7 +9,12 @@ const GameOver = props => {
       <TitleText>The Game is Over!</TitleText>
       <View style={styles.imageContainer}>
         <Image
-          source={require("../assets/success.png")}
+          fadeDuration={1000}
+          //   source={require("../assets/success.png")}
+          source={{
+            uri:
+              "https://media.licdn.com/dms/image/C4E03AQHCKrc6z9AGmQ/profile-displayphoto-shrink_800_800/0?e=1577318400&v=beta&t=cc-NRWe3FybcwtQfthuUFelerk0Sxokfib8cZlPlFVI"
+          }}
           style={styles.image}
           resizeMode="cover"
         />
