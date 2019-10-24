@@ -1,5 +1,5 @@
 import React from "react";
-import { View, StyleSheet, Text, Button, Image } from "react-native";
+import { View, StyleSheet, Text, Image } from "react-native";
 import BodyText from "../components/BodyText";
 import TitleText from "../components/TitleText";
 import MainButton from "../components/MainButton";
