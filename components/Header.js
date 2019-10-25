@@ -5,7 +5,7 @@ import TitleText from "./TitleText";
 
 const Header = props => {
   return (
-    <View style={styles.header}>
+    <View style={styles.headerBase}>
       <TitleText style={styles.headerTitle}>{props.title}</TitleText>
     </View>
   );
